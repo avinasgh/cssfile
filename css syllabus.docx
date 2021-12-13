@@ -17,4 +17,15 @@ body{
 }
 
 fonts
+=======
+
+body{
+    font-family: algerian;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: aqua;
+}
+
 
