@@ -5,8 +5,16 @@ internal
 external
 
 background:
-background-color
-background-image
-background-repeat
-background-position
-background-attachment
+************
+p{
+    background-color: aqua;
+}
+body{
+    background-image:url(tree.jpg);
+    background-repeat: no-repeat;
+    background-position:center left;
+    background-attachment: fixed;
+}
+
+fonts
+
