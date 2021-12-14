@@ -93,3 +93,37 @@ ol{
     list-style-image:url("xty.jpg")
     marker-offset:25cm;
 }
+
+padding concepts
+
+header{
+    background-color: red;
+    width: 80%;
+    margin:20px;
+    padding: 2px;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    margin: 0px;
+
+}
+footer{
+    background-color: red;
+    width:80%;
+    margin:20px;
+    color: white;
+    text-align: right;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 0px;
+
+}
+div{
+
+    width: 80%;
+    text-align: justify;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+
