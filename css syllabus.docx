@@ -126,4 +126,41 @@ div{
     padding: 2px;
 }
 
+            <img style="float: left;"src="leaf.jpg">
+            header{
+    background-color: red;
+    color: white;
+}
+
+footer{
+    background-color: red;
+    color: white;
+}
+div{
+    background-color: aqua;
+}
+img{
+    border: 2px solid black;
+    
+}
+
+ body{
+      background-image: url("tree.jpg");
+            }
+            button{
+                opacity: 0.5;
+            }
+
+    selectors
+
+    element or tag selectors
+    h1{};
+    id selectors:# id name;
+    class: .classname;
+    universal :*
+    group selector:h1,h2{
+        
+    }
+
+
 
