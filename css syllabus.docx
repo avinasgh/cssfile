@@ -70,6 +70,7 @@ img{
     border-left-color:black;
     border-right-color:blue;
     border:5px(width) solid(border-style) red(border-color)
+    border-radius:100px;
 }
 
 table{
@@ -79,4 +80,16 @@ table{
     caption-side:top/bottom/left/right;
     empty-cells:hide/show;
 }
+img:hover{
+    width:100px;
+    height:100px;
+}
 
+lists
+
+ol{
+    list-style-type:circle/square/lower-greek/none
+    list-style-position:inside/outside/none
+    list-style-image:url("xty.jpg")
+    marker-offset:25cm;
+}
