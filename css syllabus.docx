@@ -21,11 +21,43 @@ fonts
 
 body{
     font-family: algerian;
-    font-style: italic;
+    font-style: italic/oblique/bold;
     font-variant: small-caps;
     font-weight: bolder;
     font-size: xx-large;
     color: aqua;
 }
 
+text
+=====
+body{
+    direction:ltr/rtl
+    letter-spacing:0px/1px;
+    word-spacing:0px/1px;
+    text-align:center,left,right,justify;
+    text-transform:lowercase,uppercase,capitalize,none;
+    text-decoration:underline/overline/strikethrough/none;
+    text-indent:10px;
+    white-space:pre/normal;
+    text-shadow:4px 4px 8px blue;
+}
 
+links
+========
+
+a{
+    background-color: yellow;
+}
+a:link{
+    color: red;
+    text-decoration: none;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    font-size: xx-large;
+}

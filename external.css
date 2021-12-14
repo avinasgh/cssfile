@@ -1,9 +1,16 @@
-
-body{
-    font-family: algerian;
-    font-style: italic;
-    font-variant: small-caps;
-    font-weight: bolder;
+a{
+    background-color: yellow;
+}
+a:link{
+    color: red;
+    text-decoration: none;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: green;
+}
+a:hover{
     font-size: xx-large;
-    color: aqua;
 }
