@@ -61,3 +61,22 @@ a:visited{
 a:hover{
     font-size: xx-large;
 }
+
+borders
+img{
+    border-color:red;
+    border-top-color:green;
+    border-bottom-color:yellow;
+    border-left-color:black;
+    border-right-color:blue;
+    border:5px(width) solid(border-style) red(border-color)
+}
+
+table{
+    border-collapse:collapse/separate;
+
+    border-spacing:10px;
+    caption-side:top/bottom/left/right;
+    empty-cells:hide/show;
+}
+
